@@ -4,9 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        usecase1.welcome();
 
-        System.out.println("==== Palindrome Checker App ====");
+
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
 
