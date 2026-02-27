@@ -34,22 +34,17 @@ public class Main {
             System.out.println("\nFinal Result: It is NOT a palindrome");
         }
         System.out.println("======================================");
-
         PalindromeUseCase2.hardcoded();
-
         scanner.close();
-
         System.out.println("======================================");
-
         PalindromeUseCase3.looprev();
-
         System.out.println("======================================");
-
         PalindromeUseCase4.isPalindromeUsingCharArray(input);
-
         System.out.println("======================================");
-
         PalindromeUseCase5.isPalindromeUsingStack(input);
+        System.out.println("======================================");
+        PalindromeUseCase6.isPalindromeUsingQueueAndStack(input);
+
 
     }
 }
