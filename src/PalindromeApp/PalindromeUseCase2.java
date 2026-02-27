@@ -5,7 +5,6 @@ public class PalindromeUseCase2 {
     public static void hardcoded(){
 
         String input = "madam";
-
         System.out.println("Use Case 2: Hardcoded Palindrome Check");
         System.out.println("Input String: " + input);
 
