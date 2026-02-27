@@ -10,5 +10,6 @@ public class PalindromeUseCase1{
         System.out.println("Application Version: 1.0");
         System.out.println("System Status: Running");
         System.out.println("======================================");
+        
     }
 }
