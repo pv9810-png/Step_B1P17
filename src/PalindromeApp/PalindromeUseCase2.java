@@ -1,3 +1,5 @@
+package PalindromeApp;
+
 public class PalindromeUseCase2 {
 
     public static void hardcoded(){

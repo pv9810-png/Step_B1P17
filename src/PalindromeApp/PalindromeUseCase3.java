@@ -1,3 +1,5 @@
+package PalindromeApp;
+
 public class PalindromeUseCase3 {
 
     public static void looprev(){

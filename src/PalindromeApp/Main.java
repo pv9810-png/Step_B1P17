@@ -1,3 +1,5 @@
+package PalindromeApp;
+
 import java.util.Scanner;
 
 public class Main {

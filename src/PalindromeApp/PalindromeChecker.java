@@ -1,3 +1,5 @@
+package PalindromeApp;
+
 public class PalindromeChecker {
     public static boolean isPalindromeBasic(String input) {
         String reversed = new StringBuilder(input).reverse().toString();

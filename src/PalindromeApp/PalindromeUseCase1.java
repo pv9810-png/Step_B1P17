@@ -1,3 +1,4 @@
+package PalindromeApp;
 
 public class PalindromeUseCase1{
 
