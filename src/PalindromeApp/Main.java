@@ -46,5 +46,10 @@ public class Main {
         System.out.println("======================================");
 
         PalindromeUseCase4.isPalindromeUsingCharArray(input);
+
+        System.out.println("======================================");
+
+        PalindromeUseCase5.isPalindromeUsingStack(input);
+
     }
 }
