@@ -6,7 +6,7 @@ public class PalindromeUseCase3 {
 
 
         String input = "madam";
-        
+
         String reversed = "";
 
         for (int i = input.length() - 1; i >= 0; i--) {

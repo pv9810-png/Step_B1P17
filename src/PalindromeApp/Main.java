@@ -44,6 +44,9 @@ public class Main {
         PalindromeUseCase5.isPalindromeUsingStack(input);
         System.out.println("======================================");
         PalindromeUseCase6.isPalindromeUsingQueueAndStack(input);
+        System.out.println("======================================");
+        PalindromeUseCase7.isPalindromeUsingDeque(input);
+
 
 
     }
