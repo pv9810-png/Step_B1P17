@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        usecase1.welcome();
+        PalindromeUseCase1.welcome();
 
 
         Scanner scanner = new Scanner(System.in);
@@ -33,10 +33,12 @@ public class Main {
         }
         System.out.println("======================================");
 
-        usecase2.hardcoded();
+        PalindromeUseCase2.hardcoded();
+
+        scanner.close();
 
         System.out.println("======================================");
 
-        scanner.close();
+        PalindromeUseCase3.looprev();
     }
 }

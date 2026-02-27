@@ -1,4 +1,4 @@
-public class usecase2 {
+public class PalindromeUseCase2 {
 
     public static void hardcoded(){
 
