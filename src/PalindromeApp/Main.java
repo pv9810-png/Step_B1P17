@@ -42,5 +42,9 @@ public class Main {
         System.out.println("======================================");
 
         PalindromeUseCase3.looprev();
+
+        System.out.println("======================================");
+
+        PalindromeUseCase4.isPalindromeUsingCharArray(input);
     }
 }
