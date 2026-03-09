@@ -50,5 +50,7 @@ public class Main {
         PalindromeUseCase8.isPalindromeUsingLinkedList(input);
         System.out.println("======================================");
         PalindromeUseCase9.isPalindromeRecursive(input, 0, input.length() - 1);
+        System.out.println("======================================");
+        PalindromeUseCase10.isPalindromeIgnoreSpacesAndCase(input);
     }
 }

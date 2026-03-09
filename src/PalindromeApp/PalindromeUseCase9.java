@@ -2,9 +2,9 @@ package PalindromeApp;
 
 public class PalindromeUseCase9 {
 
-    public static boolean isPalindromeRecursive(String input,int start, int end) {
+    public static boolean isPalindromeRecursive(String input, int start, int end) {
 
-        // Base condition
+        // Base condition (VERY IMPORTANT)
         if (start >= end) {
             System.out.println("UC9 Result: It is a palindrome");
             return true;
@@ -16,7 +16,7 @@ public class PalindromeUseCase9 {
             return false;
         }
 
-        // Recursive call
-        return PalindromeUseCase9.isPalindromeRecursive(input, 0, input.length() - 1);
+        // Recursive call with updated indices
+        return isPalindromeRecursive(input, start + 1, end - 1);
     }
 }
