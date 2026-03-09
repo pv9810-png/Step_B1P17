@@ -61,5 +61,7 @@ public class Main {
         System.out.println("======================================");
         context.setStrategy(new PalindromeUseCase12_3());
         context.execute(input);
+        System.out.println("======================================");
+        PalindromeUseCase13.comparePerformance(input);
     }
 }
