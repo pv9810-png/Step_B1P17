@@ -54,5 +54,12 @@ public class Main {
         PalindromeUseCase10.isPalindromeIgnoreSpacesAndCase(input);
         System.out.println("======================================");
         PalindromeUseCase11.checkPalindrome(input);
+        System.out.println("======================================");
+        PalindromeUseCase12_4 context = new PalindromeUseCase12_4();
+        context.setStrategy(new PalindromeUseCase12_2());
+        context.execute(input);
+        System.out.println("======================================");
+        context.setStrategy(new PalindromeUseCase12_3());
+        context.execute(input);
     }
 }
