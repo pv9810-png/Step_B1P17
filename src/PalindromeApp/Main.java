@@ -46,8 +46,9 @@ public class Main {
         PalindromeUseCase6.isPalindromeUsingQueueAndStack(input);
         System.out.println("======================================");
         PalindromeUseCase7.isPalindromeUsingDeque(input);
-
-
-
+        System.out.println("======================================");
+        PalindromeUseCase8.isPalindromeUsingLinkedList(input);
+        System.out.println("======================================");
+        PalindromeUseCase9.isPalindromeRecursive(input, 0, input.length() - 1);
     }
 }
